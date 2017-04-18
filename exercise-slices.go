@@ -2,6 +2,7 @@ package main
 
 import "golang.org/x/tour/pic"
 
+// Pic ...
 func Pic(dx, dy int) (image [][]uint8) {
 	image = make([][]uint8, dy) // スライスを要素に持てる長さ dy のスライスを生成
 	for y := 0; y < dy; y++ {
